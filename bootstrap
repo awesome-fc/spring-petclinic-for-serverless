@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+java    -Dserver.port=9000 \
+        -Dserver.servlet.context-path=/ \
+        -jar target/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar

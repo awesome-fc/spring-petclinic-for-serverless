@@ -1,0 +1,12 @@
+.idea/
+.mvn/
+.vscode/
+push-to-pws/
+src/
+*.yml
+mvnw*
+*.xml
+*.md
+target/*
+!target/*.jar
+
