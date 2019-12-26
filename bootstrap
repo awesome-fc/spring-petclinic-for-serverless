@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 java    -Dserver.port=9000 \
         -Dserver.servlet.context-path=/ \
+        -Dspring.profiles.active=mysql \
+        -Dspring.datasource.url=jdbc:mysql://${MYSQL_HOST:-localhost}:${MYSQL_PORT:-3306}/${MYSQL_DBNAME} \
+        -Dspring.datasource.username=${MYSQL_USER:-root} \
+        -Dspring.datasource.password=$MYSQL_PASSWORD \
+        -Dspring.output.ansi.enabled=NEVER \
+        -Dspring.main.banner-mode=off \
         -jar target/spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar

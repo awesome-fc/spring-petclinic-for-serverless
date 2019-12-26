@@ -9,4 +9,6 @@ mvnw*
 *.md
 target/*
 !target/*.jar
+dist
+doc
 
