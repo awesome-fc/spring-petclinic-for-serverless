@@ -25,7 +25,7 @@ Mappings:
   RegionMap:
     cn-shanghai:
       ZoneId: cn-shanghai-e
-    ch-hangzhou:
+    cn-hangzhou:
       ZoneId: cn-hangzhou-g 
     cn-qingdao:
       ZoneId: cn-qingdao-c
