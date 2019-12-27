@@ -3,16 +3,18 @@ Transform: 'Aliyun::Serverless-2018-04-03'
 Parameters:
   DomainName:
     Type: String
-    Default: petclinic.codelife.me
+    Description: Please provide a domain (support second-level domain), then the CNAME record of the domain is pointed to `12345.cn-shanghai.fc.aliyuncs.com`, where `12345` is replaced into your AccountID
   VpcName:
     Type: String
     Default: PetClinicVPC
   MasterUserName:
     Type: String
     Default: pc
+    Description: Username of RDS MYSQL
   MasterUserPassword:
     Type: String
     Default: pc@Passwd
+    Description: Password of RDS MYSQL
 
 Mappings:
   Defaults:
