@@ -22,6 +22,6 @@ In this example, we intend to use the [Custom Runtime](https://www.alibabacloud.
 
 The architecture diagram of the application is as follows:
 
-![](https://img.alicdn.com/tfs/TB1EbdXsCf2gK0jSZFPXXXsopXa-1029-645.png)
+![](https://img.alicdn.com/tfs/TB1uE4BsAL0gK0jSZFxXXXWHVXa-1080-645.png)
 
 Project source code: https://github.com/awesome-fc/spring-petclinic-for-serverless
