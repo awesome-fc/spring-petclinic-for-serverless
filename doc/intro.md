@@ -22,6 +22,6 @@
 
 该应用的架构图如下：
 
-![](https://img.alicdn.com/tfs/TB1EbdXsCf2gK0jSZFPXXXsopXa-1029-645.png)
+![](https://img.alicdn.com/tfs/TB1uE4BsAL0gK0jSZFxXXXWHVXa-1080-645.png)
 
 项目源码：https://github.com/awesome-fc/spring-petclinic-for-serverless
