@@ -20,7 +20,7 @@ package: prepare
 	fun package --oss-bucket $(OSS_BUCKET)
 
 build: package
-	cp -r doc/* $(dist)
+	cp -r doc/*.md $(dist)
 	sed -e 's/CodeUri:.*/CodeUri: oss:\/\/%bucket%\/%templateName%\/code.zip/g' template.yml > $(dist)/template.yml
 
 deploy: build
