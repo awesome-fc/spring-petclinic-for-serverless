@@ -24,4 +24,4 @@ The architecture diagram of the application is as follows:
 
 ![](https://img.alicdn.com/tfs/TB1EbdXsCf2gK0jSZFPXXXsopXa-1029-645.png)
 
-Project source code: https://github.com/vangie/spring-petclinic-for-serverless
+Project source code: https://github.com/awesome-fc/spring-petclinic-for-serverless

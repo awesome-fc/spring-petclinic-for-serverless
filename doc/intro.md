@@ -24,4 +24,4 @@
 
 ![](https://img.alicdn.com/tfs/TB1EbdXsCf2gK0jSZFPXXXsopXa-1029-645.png)
 
-项目源码：https://github.com/vangie/spring-petclinic-for-serverless
+项目源码：https://github.com/awesome-fc/spring-petclinic-for-serverless
