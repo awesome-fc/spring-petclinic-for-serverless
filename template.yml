@@ -168,7 +168,7 @@ Resources:
         Handler: com.example.demo.DemoApplication::main
         Runtime: custom
         CodeUri: ./
-        MemorySize: 1024
+        MemorySize: 3072
         Timeout: 15
         EnvironmentVariables:
           MYSQL_HOST:
